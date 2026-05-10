@@ -26,3 +26,7 @@ Development is strictly governed by **"Law 666"**: No code cleanup, no simplific
 
 ---
 **Developer:** Vladimir (Tsarskiy Soft)
+
+📄 License: 
+
+MIT
