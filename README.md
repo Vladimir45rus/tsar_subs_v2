@@ -1,33 +1,28 @@
-# 💳 Царь Подписки (Tsar_Subs v2) — Intelligent Financial Manager
+# 💳 Tsar_Subs v2: Intelligent Subscription Management Ecosystem
 
-Интеллектуальный сервис экосистемы **«Царский Софт»** для управления цифровыми активами и подписками.
+## Project Overview
+**Tsar_Subs** is a high-performance financial management platform within the **Tsarskiy Soft** ecosystem. It is designed to centralize digital subscriptions, automate expense forecasting, and provide AI-driven optimization of recurring payments.
 
-## 🎯 Миссия и ИИ-интеграция (MiMo v2.5)
-Проект находится в стадии активного внедрения модели **Xiaomi MiMo v2.5 Pro**. Мы используем ИИ не просто для статистики, а для:
-- **Голосового управления:** Полное управление финансами голосом без использования ПК (через MiMo TTS).
-- **Предиктивного анализа:** Использование окна в 1 млн токенов для анализа годовых трат и автоматического поиска скрытых списаний.
-- **Безопасности:** Связка с **Царь Щит** для мгновенной блокировки подозрительных транзакций.
+## Core Integration: Xiaomi MiMo v2.5 Pro
+This project is purpose-built to leverage the **MiMo Orbit** capabilities:
+* **Voice-Powered Interface:** Implementing MiMo TTS/STT for full hands-free management, allowing the system to operate without a PC via voice commands.
+* **Large Context Analysis:** Utilizing the 1M token window of **MiMo v2.5 Pro** to analyze multi-year transaction patterns and detect hidden financial anomalies.
+* **Smart Financial Advisor:** AI-driven cost-reduction strategies based on user behavior analysis.
 
-## 🛠 Технологии (Current Stack)
-- **Frontend:** Next.js, React, Tailwind CSS (высокая производительность)
-- **AI Core:** Xiaomi MiMo v2.5 Pro (интеграция через `/ai-integration`)
-- **Backend:** Firebase & Vercel Edge Functions
-- **Infrastructure:** PWA-ready для iOS и Android
+## Technical Stack
+* **Frontend:** Next.js 14, React, Tailwind CSS
+* **AI Engine:** MiMo v2.5 Pro (Integration layer: `/ai-integration`)
+* **Backend & Security:** Firebase, Vercel Edge Runtime, OIDC (Tsar-ID)
+* **Mobile:** PWA (Progressive Web App) for iOS/Android
 
-## 📦 Статус разработки
-✅ **Core UI:** Добавление, редактирование и визуализация подписок.
-✅ **Data Safety:** Локальное шифрование данных.
-🔄 **AI Integration:** Настройка промптов для MiMo v2.5 Pro (анализ паттернов расходов).
-⚙️ **Payment Gate:** Интеграция российских эквайрингов (Т-Банк/ЮKassa) для PWA-версии.
+## Ecosystem Synergy
+Tsar_Subs works in tight integration with:
+* **Tsar-ID:** Unified secure authentication.
+* **Tsar-Shield:** Advanced anti-fraud and transaction security.
+* **Tsar-Pharmacy:** Smart healthcare management.
 
-## 🔗 Экосистема «Царский Софт»
-Проект является частью единой сети защищенных приложений:
-- [Царь ID](https://github.com/Vladimir45rus/tsar_id_edition) — Единая безопасная авторизация.
-- [Царь Щит](https://github.com/Vladimir45rus/Tsar_anti-fraud) — Антифрод и защита транзакций.
-- [Царь Аптечка](https://github.com/Vladimir45rus/tsar_apteka) — Умный контроль здоровья.
-
-## 📜 Принципы разработки
-Работа ведется строго по **«Закону 666»**: код не упрощается, не прореживается, только масштабируется для глубокой интеграции с нейросетями.
+## Engineering Principles
+Development is strictly governed by **"Law 666"**: No code cleanup, no simplification. The architecture is designed only for expansion and deep AI integration to maintain maximum logic density.
 
 ---
-**Author:** Владимир (Царь Батюшка)
+**Developer:** Vladimir (Tsarskiy Soft)
