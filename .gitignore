@@ -1,0 +1,12 @@
+build/
+.dart_tool/
+android/build/
+android/.gradle/
+ios/build/
+node_modules/
+*.apk
+*.aab
+*.bin
+.DS_Store
+dist/
+.env
