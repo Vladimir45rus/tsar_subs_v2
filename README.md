@@ -29,4 +29,4 @@ Development is strictly governed by **"Law 666"**: No code cleanup, no simplific
 
 📄 License: 
 
-MIT
+MIT | Copyright (c) 2026 Vladimir "Tsar Batyushka"
